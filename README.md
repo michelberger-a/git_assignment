@@ -10,6 +10,8 @@ A pull request is a request used as a potential merging of files from one branch
 A pull request has its own tab on the repository page in github. Within each pull request, there are several features to consider. Within each request, you can see the "start" of the request, and the subsequent commits with the summary message(s). Additional features as listed above, Reviewers, Assignees, Labels etc. can be included in the pull request. Although a pull request can be created, it does not mean it has been applied, until the "Merge Pull Requst" button at the end has been clicked. This will allow the merging of the files/code from the branch into the target branch.
 
 c. Describe the steps to open a pull request?
+
+Setting Up the Branch and File(s)  
 - You fill first need to select a repository of interest and create a branch as a copy of the main branch. This step can be completed through GitHub
 - You will need to clone the repository url to access files. Move into the git directory you've set aside for this work. Also create the new branch on your local computer to edit the files through
 - Once this is setup, edit your files, then stage (add) the file, commit, and push to GitHub (see steps below)
@@ -26,10 +28,16 @@ git push --set-upstream origin <new-branch-name>
 
 now you can check if the files edited have been updated
 
+Creating the Pull Request  
+- On GitHub, go to the repository you have been working in
+- Along the top ribbon of the screen, click into "Pull Requests"
+- In the top-right corner, click the green button "New pull request"
+- Along the top of the new page, under compare changes, two new drop down boxes have appeared with an arrow inbetween. This arros shows the directionality of the merging files
+- In the first box, base:, select the main branch of the repository (or the target branch) 
+- In the second box, compare:, select the branch you have pushed edits and changes too (typically the branch you defined earlier)
+- Lower on the screen, there will be a panel displaying the changes made across the merge
 
-- on GitHub, go to the repository of interest, along the top ribbon of the screen, click into "Pull Requests"
-- in the top-right corner, click the green button "New pull request"
-- along the top of the new page, under compare changes, from the first drop down menu, select the branch you want to merge files into (typically main) and then in the second drop down menu, select the branch you want to merge files from (typically the branch you've been pushing files too)
+from the first drop down menu called base:, select the branch you want to merge files into (typically main) and then in the second drop down menu, select the branch you want to merge files from (typically the branch you've been pushing files too)
 - with the origin and destination selected, a module will pop up highlighting changes in files that will be applied with the merge
 - if everything is okay, in the top right, click the green box "Create Pull Request"
 - a new page will open, you may edit the title, add a description of chnges or info about the request, and additional information and tags such as Reviewers, Assignees, Labels, Projects, Milestones etc. 
