@@ -15,14 +15,14 @@ c. Describe the steps to open a pull request?
 - Once this is setup, edit your files, then stage (add) the file, commit, and push to GitHub (see steps below)
 - As a reminder, this push should be directed at a branch which is NOT the main
 
-git checkout -b <new-branch-name>
-code <file-name.extension>
-#save changes
-git add -A
-git commit -m "update commit message here"
-git push
-#if the branch is new, you may receive an error and will need to use this code to push to the stream
-git push --set-upstream origin <new-branch-name>
+git checkout -b <new-branch-name>  
+code <file-name.extension>  
+#save changes  
+git add -A  
+git commit -m "update commit message here"  
+git push  
+#if the branch is new, you may receive an error and will need to use this code to push to the stream  
+git push --set-upstream origin <new-branch-name>  
 
 now you can check if the files edited have been updated
 
