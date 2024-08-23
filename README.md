@@ -11,7 +11,22 @@ A pull request has its own tab on the repository page in github. Within each pul
 
 c. Describe the steps to open a pull request?
 - You fill first need to select a repository of interest and create a branch as a copy of the main branch. This step can be completed through GitHub
-- You will need to clone the 
+- You will need to clone the repository url to access files. Move into the git directory you've set aside for this work. Also create the new branch on your local computer to edit the files through
+- Once this is setup, edit your files, then stage (add) the file, commit, and push to GitHub (see steps below)
+- As a reminder, this push should be directed at a branch which is NOT the main
+
+git checkout -b <new-branch-name>
+code <file-name.extension>
+#save changes
+git add -A
+git commit -m "update commit message here"
+git push
+#if the branch is new, you may receive an error and will need to use this code to push to the stream
+git push --set-upstream origin <new-branch-name>
+
+now you can check if the files edited have been updated
+
+
 - on GitHub, go to the repository of interest, along the top ribbon of the screen, click into "Pull Requests"
 - in the top-right corner, click the green button "New pull request"
 - along the top of the new page, under compare changes, from the first drop down menu, select the branch you want to merge files into (typically main) and then in the second drop down menu, select the branch you want to merge files from (typically the branch you've been pushing files too)
@@ -24,7 +39,12 @@ git checkout -b <new-branch-name>
 code <file-name.extension>
 #save changes
 git add -A
+git commit -m "update message here"
+git push
+#if the branch is new, you may receive an error and will need to use this code to push to the stream
+git push --set-upstream origin <new-branch-name>
 
+now you can check if the files edited have been updated
 
 d. Describe the steps to add a collaborator to a repository (share write permissions)
 
