@@ -20,6 +20,11 @@ c. Describe the steps to open a pull request?
 - a new page will open, you may edit the title, add a description of chnges or info about the request, and additional information and tags such as Reviewers, Assignees, Labels, Projects, Milestones etc. 
 - when satisfied, underneath the description box, click the green button "Create pull request"
 
+git checkout -b <new-branch-name>
+code <file-name.extension>
+#save changes
+git add -A
+
 
 d. Describe the steps to add a collaborator to a repository (share write permissions)
 
