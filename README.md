@@ -10,8 +10,8 @@ A pull request is a request used as a potential merging of files from one branch
 A pull request has its own tab on the repository page in github. Within each pull request, there are several features to consider. Within each request, you can see the "start" of the request, and the subsequent commits with the summary message(s). Additional features as listed above, Reviewers, Assignees, Labels etc. can be included in the pull request. Although a pull request can be created, it does not mean it has been applied, until the "Merge Pull Requst" button at the end has been clicked. This will allow the merging of the files/code from the branch into the target branch.
 
 c. Describe the steps to open a pull request?
-- you fill first need to select a repository of interest and create a branch as a copy of the main branch. This step can be completed through GitHub
-- you will need to clone the 
+- You fill first need to select a repository of interest and create a branch as a copy of the main branch. This step can be completed through GitHub
+- You will need to clone the 
 - on GitHub, go to the repository of interest, along the top ribbon of the screen, click into "Pull Requests"
 - in the top-right corner, click the green button "New pull request"
 - along the top of the new page, under compare changes, from the first drop down menu, select the branch you want to merge files into (typically main) and then in the second drop down menu, select the branch you want to merge files from (typically the branch you've been pushing files too)
