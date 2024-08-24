@@ -83,4 +83,11 @@ Overall, git diff will preview changes made between files or branches, prior to 
 
 g. What is the main branch?
 
+The main branch is often the "central" or default branch as the primary host of files and code for a project. The main branch is usually where the "good copy" of the files are stored as they will be used for professional based projects between collaborators. Semantic models can be designed to display the relationship of additional branches to the main branch. 
+
+The main branch, sometimes referred to as the central or master branch will store the project ready files. This is often where final/good copy files are pushed too. Collaborators may make copies/create branches of this main branch to re-design, edit and experiment with files/code. If satisfied, users will create pull requests, to merge experimental branch files to the main branch, after careful review and consideration from other collaborators. Many of these branches will follow specific naming conventions, according to the team and project, to highlight what the branch is being used for. Often times, the main branch is protected, meaning files cannot be merged into the branch through pull requests until they pass outlined requirements, such as two reviewers to confirm. Often, these steps are included in a workflow. Certain steps must be completed in different branches before they can be merged to the main.
+
+The central/main branch is important to maintain clean and organized files. This allows teams to succeed in project development and avoid conflict. 
+
+
 h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
