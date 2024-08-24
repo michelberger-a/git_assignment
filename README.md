@@ -35,26 +35,26 @@ Creating the Pull Request
 - Along the top of the new page, under compare changes, two new drop down boxes have appeared with an arrow inbetween. This arros shows the directionality of the merging files
 - In the first box, base:, select the main branch of the repository (or the target branch) 
 - In the second box, compare:, select the branch you have pushed edits and changes too (typically the branch you defined earlier)
-- Lower on the screen, there will be a panel displaying the changes made across the merge
+- Lower on the screen, there will be a panel displaying the changes made across the merge. You can review these changes and then select "Create pull request" in the top right corner
+- In the new page, you can edit the title of the pull request, and should provide a description of the pull request. This description should explain the details of changes, and other related information. 
+- In addition to the title and description, more information can be provided. This includes, again, Reviewers, Assigned, Labels, Projects, and Milestones, all as different tages to get users to review or categories the pull request. 
+- Review the rest of the page, including the summary of previous commits for the two branches involved in the pull request
+- Once statisfied, you can click the green button "Create pull request"
+- Now another new page will appear. This will summarize the details involved in the request, using the information provided in the previous steps. Yourself and other users can review this information and then confirm the request to merge the information within the identified branches. 
 
-from the first drop down menu called base:, select the branch you want to merge files into (typically main) and then in the second drop down menu, select the branch you want to merge files from (typically the branch you've been pushing files too)
-- with the origin and destination selected, a module will pop up highlighting changes in files that will be applied with the merge
-- if everything is okay, in the top right, click the green box "Create Pull Request"
-- a new page will open, you may edit the title, add a description of chnges or info about the request, and additional information and tags such as Reviewers, Assignees, Labels, Projects, Milestones etc. 
-- when satisfied, underneath the description box, click the green button "Create pull request"
-
-git checkout -b <new-branch-name>
-code <file-name.extension>
-#save changes
-git add -A
-git commit -m "update message here"
-git push
-#if the branch is new, you may receive an error and will need to use this code to push to the stream
-git push --set-upstream origin <new-branch-name>
-
-now you can check if the files edited have been updated
 
 d. Describe the steps to add a collaborator to a repository (share write permissions)
+
+- To start the process of adding a collaborator, you will need to find the repository within your GitHub account you would like to share. 
+- Along the ribbon at the top of the screen, select the "Settings" box with the gear icon
+- On the new page, there is a panel on the left hand of the screen, the first option under General is Collaborators. Click there. 
+- The page will update to show "Who has access" and a panel underneath with a green box that says "Add people". Click that button
+- A pop-up will appear that allows you to search for users by username, full name or email. Use this box to identify the collaborator you'd like to add
+- Click on their name when it appears, and then click the green button that says "Add <user-name> to this respository"
+- That user will receive an email invitation to join the repository. Once they accept, they will be able to collaborate on the repository. 
+
+Please ensure you do not follow the steps to add a person to a personal project. The add a collaborator steps are slightly different including determining their level of access (read/write/admin)
+
 
 e. What is the difference between git and GitHub?
 
