@@ -73,6 +73,14 @@ Differences:
 
 f. What does git diff do?
 
+git diff can be uses to show changes between commits and branches. It will allow you to compare and contrast changes between commits at different steps, or between branches within a directory. 
+
+If you add a path file after git diff, the changes for that specific file will be highlighted in green and red lines. With the option --staged, this will show the changes in the staging area after using git add to beging the process of pushing changes. 
+
+You can also compare two branches through git diff. After entering git diff, if you type out the two branches to compare, separating their names by a space, you will see the changes between the two branches. Similarily, if you extend the file path to include specific file names, those will also display the change made. 
+
+Overall, git diff will preview changes made between files or branches, prior to a full add, commit and push workflow. 
+
 g. What is the main branch?
 
 h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
