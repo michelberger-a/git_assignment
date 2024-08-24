@@ -91,3 +91,11 @@ The central/main branch is important to maintain clean and organized files. This
 
 
 h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
+
+It is among a best practice to NOT push changes directly to the main branch. Every team/project may have their own standards, but branching is a strategy that allows collaborators to tweak and experiment codes/files, and store without creating conflict. 
+
+With branching, a user is free to experiment with code and will not put the overall project code at risk. This will allow other collaborators to review code/files and open discussion about edits. This will help prevent merging files with errors or bugs into the main branch. Testing may also occur to check the code for correct outputs, such as autograder tools reviewing correct answers to questions. Aside from the code, this strategy may prevent project conflicts and disagreements between collaborators. 
+
+With completion and review of a branch. A pull request can be created to merge files from the side branch to the main branch. Once again, a process can be created allowing collaborators to review changes, completion of a checklist, and editing of changes prior to a merge to the main branch. Main branches may be protected by rule sets to allow a side branch to merge to the main branch. 
+
+Overall, changes should be pushed to a side branch instead of the main branch. This will provide opportunity for collaborators to review code to ensure it is appropriate. A strategy involving the creation and review of side branches will help avert workplace conflicts. 
