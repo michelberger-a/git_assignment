@@ -53,10 +53,23 @@ d. Describe the steps to add a collaborator to a repository (share write permiss
 - Click on their name when it appears, and then click the green button that says "Add <user-name> to this respository"
 - That user will receive an email invitation to join the repository. Once they accept, they will be able to collaborate on the repository. 
 
-Please ensure you do not follow the steps to add a person to a personal project. The add a collaborator steps are slightly different including determining their level of access (read/write/admin)
+Please ensure you do not follow the steps to add a person to a personal project. The add a collaborator steps are slightly different including determining their level of access (read/write/admin).
 
 
 e. What is the difference between git and GitHub?
+
+Git: is a version control system. It can track changes of files/code that is being edited. It is a command-line tool that can be used on the local computer but connect with repositories on GitHub. Git is an effective and efficient version control system. When using Git to track changes, it will only update files that have had edits. Through Git, you can created branches off a GitHub respository, edit the files, push changes back to the branch and track the changes. This will allow easy collaboration between team members and other collaborators involved. 
+Git uses a check-summing mechanism to track changes which is effective in storing data and making it difficult to have untracked changes, similar to blockchain. Git can access files through three states, Committed, Modified and Staged. The workflow in Git involves three steps. First to modify the files in the working directory. Second, to stage files in a staging area. Third, to commit the changes to a directory. 
+
+GitHub: is a platform that can be found online or through a desktop based app. This platform allows collaborators, scientists, developers and any other data enthusiasts to store code and files. Many projects on github are publicly available. GitHub integrates functions of Git such as change tracking version control. 
+
+Differences:
+- Git is a software (language), GitHub is more of platform/service that can store files, code but uses Git functionality
+- Git is a command line program, GitHub is an online service with a nicer interface and user friendly experience compared to git
+- Git is used for version control and file editing, GitHub stores projects and code in organized repositories, branches etc. (which can be edited as well)
+- Git is used on the local computer, GitHub is used through online web-services (but there is a desktop app that can be downloaded)
+- Git is free to use and can be used on practically any computer without complications, GitHub needs internet and an account signup, GitHub also has an availabe paid platform
+- for changes Git requires a workflow process of git add, git commit and git push, in GitHub, changes can be made directly online and saved like typical word files (although a similar process to Git) and introduce pull requests, issue tracking, actions, and adding collaborators for a project-based approach
 
 f. What does git diff do?
 
